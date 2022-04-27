@@ -1,0 +1,110 @@
+
+#education {
+
+    /* border: 1px solid yellow; */
+    height: 55vw;
+}
+
+.education__container {
+    
+    /* border: 1px solid yellow; */
+    padding: .2vw;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 2.5%;
+
+}
+
+.education__content {
+    width: 98%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2vw;
+}
+
+/* .education__Full-Stack-Web-Development {
+    border: 1px solid green;
+} */
+
+
+
+.education__Full-Stack-Web-Development-icone {
+
+    background: var(--color-bg-variant);
+    margin: auto;
+    width: 98%;
+    height: 4vw;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: start;
+    
+    align-items: center;
+    gap: .4vw;
+    border-radius: .5rem;
+    padding: .5rem 1rem .2rem .2rem;
+    text-align: center;
+    font-size: 1.5vw;
+    transition: var(--transition);
+}
+
+.education__Full-Stack-Web-Development-icone:hover {
+    background: transparent;
+
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__Full-Stack-Web-Development-contect {
+    background: rgb(206,206,206);
+    color: rgb(96, 96, 211);
+    border-radius: .5rem;
+    width: 98%;
+    margin: auto;
+    margin-top: .4vw;
+    padding: 1vw;
+}
+
+/* .education__BTech-Mechanical-Engineering {
+    border: 1px solid red;
+} */
+
+.education__Full-Stack-Web-Development-contect-skills {
+    background: rgb(206,206,206);
+    color: rgb(96, 96, 211);
+    border-radius: .5rem;
+    width: 40%;
+    margin-top: .4vw;
+    padding: 1vw;
+    margin-left: .5vw;
+}
+
+
+
+.education__image {
+    border: 1px solid white;
+    margin: 1vw 1vw 1vw 1vw;
+    height: 27rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.education__image-logo {
+    display: flex;
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0deg);
+    
+    transition: var(--transition);
+}
+
+.education__image-logo:hover {
+    transform: rotate(0deg);
+}

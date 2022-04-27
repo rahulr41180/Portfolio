@@ -1,0 +1,173 @@
+
+#about {
+    
+    /* border: 1px solid green; */
+    height: 110vh;
+}
+
+.about__container {
+    
+    /* border: 1px solid yellow; */
+    padding: .2vw;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 3.5%;
+
+}
+
+/* .about__content {
+    border: 1px solid black;
+} */
+
+.about__me {
+    border: 1px solid white;
+    margin: 2vw 1vw 0 0;
+    height: 27rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    display: flex;
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0deg);
+    
+    transition: var(--transition);
+}
+
+
+.about__me-image:hover {
+    transform: rotate(0deg);
+}
+
+.about__cards {
+    width: 99%;
+    margin: auto;
+    /* border: 1px solid; */
+    display: grid;
+    /* grid-template-columns: repeat(1,1fr); */
+    /* grid-template-columns: 40%; */
+    gap: 1.5rem;
+}
+
+.about__card {
+
+    background: var(--color-bg-variant);
+    margin: auto;
+    width: 35%;
+    height: 14vw;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: transparent;
+
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about__content p {
+    margin: 1rem 0 2.6rem;
+    text-align: justify;
+    color: var(--color-light);
+}
+
+/* --------------- Media Queries (Medium Devices) ----------------- */
+
+@media screen and (max-width : 1024px) {
+
+
+
+    #about {
+    
+        /* border: 1px solid yellow; */
+        height: 160vh;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .about__me {
+        width: 50%;
+        height: 22.5rem;
+        margin: 2rem auto;
+    }
+    .about__cards {
+        /* border: 1px solid; */
+        margin: auto;
+        width: 30rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.5rem;
+    }
+    .about__card{
+        padding: 1rem;
+        margin: auto;
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* ------------------- Media Queries (Small Devices) --------------- */
+
+@media screen and (max-width : 600px) {
+
+    #about {
+    
+        /* border: 1px solid; */
+        height: 150vh;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .about__me {
+        width: 65%;
+        height: 20rem;
+        margin: 0 auto 2rem;
+    }
+    .about__cards {
+        /* border: 1px solid; */
+        margin: auto;
+        width: 20rem;
+        display: grid;
+        grid-template-columns: (1,1fr);
+        gap: 1rem;
+    }
+    .about__content {
+        text-align: center;
+    }
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+}
