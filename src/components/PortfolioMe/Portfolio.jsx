@@ -3,6 +3,7 @@ import "./Portfolio.css"
 
 import Bigbasket from "../../Assets/Bigbasket.png";
 import Minimalist from "../../Assets/Minimalist.png";
+import TicTacToe from "../../Assets/Tic-Tac-Toe.png";
 
 const data = [
     {
@@ -23,11 +24,11 @@ const data = [
     },
     {
         id : 3,
-        image : Bigbasket,
-        techstack : "HTML | CSS | JavaScript | MongoDB | Express.JS | Node.JS | EJS | Bootstrap 5",
-        title : "Bigbasket is online grocery store in India. Which is a supermarket for all your daily needs.",
-        github : "https://github.com/rahulr41180/Fw15-u2-Bigbasket-clone-project",
-        demo : "https://bigbasketcloneproject.netlify.app/index.html"
+        image : TicTacToe,
+        techstack : "HTML | CSS | JavaScript",
+        title : "A game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares; noughts and crosses.",
+        github : "https://github.com/rahulr41180/Tic-Tac-Toe-App",
+        demo : "https://tic-tac-toe-app-omega.vercel.app/"
     },
 ]
 
