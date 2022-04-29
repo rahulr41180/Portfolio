@@ -19,8 +19,8 @@ const data = [
         image : Minimalist,
         techstack : "HTML | CSS | JavaScript | MongoDB | Express.JS | Node.JS | EJS | Bootstrap 5",
         title : "beminimalist.co an web application to find the best ingredient to target your skincare concern.",
-        github : "https://github.com/rahulr41180/Clone_of_Minimalist",
-        demo : "https://bigbasketcloneproject.netlify.app/index.html"
+        github : "https://github.com/rahulr41180/Clone-of-beminimalist",
+        demo : "https://damp-cliffs-11671.herokuapp.com/"
     },
     {
         id : 3,
