@@ -8,7 +8,7 @@ export const Experience = () =>{
     return (
         <section id = "experience">
             <h5>What Tech Skills I Have</h5>
-            <h2>My Experience</h2>
+            <h2>My Skills</h2>
 
             <div className="container experience__container">
 
@@ -64,6 +64,13 @@ export const Experience = () =>{
                                 <small className="text-light">Intermediate</small>
                             </div>
                         </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className= "experience-details-icon" />
+                            <div>
+                                <h4>MaterialUi</h4>
+                                <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
 
@@ -94,6 +101,13 @@ export const Experience = () =>{
                                 <h4>Express.JS</h4>
                                 <small className="text-light">Intermediate</small>
 
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className= "experience-details-icon" />
+                            <div>
+                                <h4>Redis</h4>
+                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                     </div>

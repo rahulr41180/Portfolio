@@ -1,8 +1,10 @@
 
 #experience {
 
-    /* border: 1px solid; */
-    height: 100vh;
+    border: 1px solid yellow;
+    height: fit-content;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .experience__container {
@@ -56,7 +58,7 @@
         grid-template-columns: 1fr;
     }
     .experience__container > div {
-        width : 80%;
+        width : 65%;
         padding: 2rem;
         margin: 0 auto;
     }
@@ -71,11 +73,10 @@
 @media screen and (max-width : 600px) {
 
     .experience__container {
-        
         gap: 1rem;
     }
     .experience__container > div {
-        width: 100%;
+        width: 96%;
         padding: 2rem 1rem;
     }
 }

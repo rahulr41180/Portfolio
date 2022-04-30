@@ -1,8 +1,10 @@
 
 #about {
     
-    /* border: 1px solid green; */
-    height: 110vh;
+    border: 1px solid yellow;
+    height: fit-content;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .about__container {
@@ -103,13 +105,6 @@
 
 @media screen and (max-width : 1024px) {
 
-
-
-    #about {
-    
-        /* border: 1px solid yellow; */
-        height: 160vh;
-    }
     .about__container {
         display: flex;
         flex-direction: column-reverse;
@@ -123,17 +118,39 @@
     .about__cards {
         /* border: 1px solid; */
         margin: auto;
-        width: 30rem;
+        width: 55vw;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 1.5rem;
     }
     .about__card{
-        padding: 1rem;
+        padding: 1vw;
         margin: auto;
     }
     .about__content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about__me-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__icon {
+        font-size: 3vw;
+        margin-bottom: .2vw;
+    }
+    .about__card > h5 {
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+    .about__card > small {
+        
+        font-size: 1.5vw;
+    }
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -141,33 +158,70 @@
 
 @media screen and (max-width : 600px) {
 
-    #about {
-    
-        /* border: 1px solid; */
-        height: 150vh;
-    }
     .about__container {
         display: flex;
         flex-direction: column-reverse;
         gap: 0;
     }
     .about__me {
-        width: 65%;
-        height: 20rem;
+        width: 55vw;
+        height: 40vw;
         margin: 0 auto 2rem;
     }
+    .about__me-image {
+        width: 100%;
+        height: 100%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
     .about__cards {
-        /* border: 1px solid; */
+        border: 1px solid;
         margin: auto;
-        width: 20rem;
+        width: 65vw;
         display: grid;
         grid-template-columns: (1,1fr);
         gap: 1rem;
+    }
+    .about__card{
+        width: 35%;
+        height: fit-content;
+        padding: 1vw 1vw;
+        margin: auto;
     }
     .about__content {
         text-align: center;
     }
     .about__content p {
+        font-size: 2.5vw;
         margin: 1.5rem 0;
+    }
+    
+    .about__me-image {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        
+        transition: var(--transition);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .about__icon {
+        font-size: 4vw;
+        margin-bottom: .2vw;
+    }
+    .about__card > h5 {
+        font-size: 2.5vw;
+        margin-top: 0vw;
+    }
+    .about__card > small {
+        
+        font-size: 1.8vw;
     }
 }

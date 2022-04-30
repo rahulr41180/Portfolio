@@ -9,7 +9,7 @@ const data = [
     {
         id : 1,
         image : Bigbasket,
-        techstack : "HTML | CSS | JavaScript | MongoDB | Express.JS | Node.JS | EJS | Bootstrap 5",
+        techstack : "HTML | CSS | JavaScript | Bootstrap 5",
         title : "Bigbasket is online grocery store in India. Which is a supermarket for all your daily needs.",
         github : "https://github.com/rahulr41180/Fw15-u2-Bigbasket-clone-project",
         demo : "https://bigbasketcloneproject.netlify.app/index.html"
