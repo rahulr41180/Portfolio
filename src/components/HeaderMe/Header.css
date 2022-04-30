@@ -196,7 +196,7 @@ header {
 
     header {
         /* border: 1px solid; */
-        height: 132vh;
+        height: 138vh;
     }
 
     .header__socials{
@@ -213,6 +213,13 @@ header {
         right: 8vw;
         font-size: 1.4rem;
     }
+}
+@media screen and (max-width : 700px) {
+    header {
+        /* border: 1px solid; */
+        height: 138vh;
+    }
+    
 }
 /*
 @media screen and (max-width : 540px) {

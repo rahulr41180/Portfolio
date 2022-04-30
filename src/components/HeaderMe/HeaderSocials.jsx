@@ -11,8 +11,8 @@ export const HeaderSocial = () =>{
 
     return (
         <div className="header__socials">
-            <a href="#linkedin" target={"_blank"}><AiFillLinkedin /></a>
-            <a href="#linkedin" target={"_blank"}><BsGithub /></a>
+            <a href="https://www.linkedin.com/in/rahul--rathor/" target={"_blank"}><AiFillLinkedin /></a>
+            <a href="https://github.com/rahulr41180" target={"_blank"}><BsGithub /></a>
         </div>
     )
 }

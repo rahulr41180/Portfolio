@@ -255,7 +255,7 @@
 
     .education__container {
     
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         padding: .2vw;
         width: 80vw;
         display: flex;
@@ -290,7 +290,7 @@
     }
     .education__content {
         width: 98%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: flex;
         margin: auto;
         flex-direction: column;
@@ -299,7 +299,7 @@
     }
     .education__Full-Stack-Web-Development {
         width: 100%;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
     
     .education__Full-Stack-Web-Development-icone {

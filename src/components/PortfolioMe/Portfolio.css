@@ -102,21 +102,21 @@
         overflow: hidden;
     }
     .portfolio__item-cta {
-        border: 1px solid;
+        /* border: 1px solid; */
         display: flex;
         gap: 1rem;
         margin-bottom: 1rem;
     }
     
     .portfolio__item h3 {
-        border: 1px solid;
+        /* border: 1px solid; */
         font-size: 3vw;
         text-align: justify;
         margin: 1.2rem 0 1rem;
     }
     
     .portfolio__item h4 {
-        border: 1px solid;
+        /* border: 1px solid; */
         text-align: justify;
         font-size: 3vw;
         margin: 1rem 0 1rem;
