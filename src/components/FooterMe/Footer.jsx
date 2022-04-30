@@ -22,7 +22,7 @@ export const Footer = ()  =>{
 
             <div className="footer__socials">
                 <a target={"_blank"} href="https://www.linkedin.com/in/rahul--rathor/"><AiFillLinkedin /></a>
-                <a href="https://github.com/rahulr41180"><BsGithub /></a>
+                <a target={"_blank"} href="https://github.com/rahulr41180"><BsGithub /></a>
             </div>
 
             <div className="footer__copyright">
