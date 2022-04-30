@@ -10,7 +10,7 @@ const data = [
         id : 1,
         image : Bigbasket,
         techstack : "HTML | CSS | JavaScript | Bootstrap 5",
-        title : "Bigbasket is online grocery store in India. Which is a supermarket for all your daily needs.",
+        title : "This website is a clone of Bigbasket.com in which I had implemented Product category page, Product details page, checkout page and also I had implemented logic for filtering and sorting functionality.",
         github : "https://github.com/rahulr41180/Fw15-u2-Bigbasket-clone-project",
         demo : "https://bigbasketcloneproject.netlify.app/index.html"
     },
@@ -18,7 +18,7 @@ const data = [
         id : 2,
         image : Minimalist,
         techstack : "HTML | CSS | JavaScript | MongoDB | Express.JS | Node.JS | EJS | Bootstrap 5",
-        title : "beminimalist.co an web application to find the best ingredient to target your skincare concern.",
+        title : "This website is a clone of beminimalist.co in which I had implemented Product category page, Product details page and I fetched the data from MongoDB database.",
         github : "https://github.com/rahulr41180/Clone-of-beminimalist",
         demo : "https://damp-cliffs-11671.herokuapp.com/"
     },
