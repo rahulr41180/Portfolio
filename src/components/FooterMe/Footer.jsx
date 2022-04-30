@@ -9,7 +9,7 @@ export const Footer = ()  =>{
 
     return (
         <footer>
-            <a href="#" className="footer__logo">EGATOR</a>
+            <a href="#" className="footer__logo"></a>
 
             <ul className="permalinks">
                 <li><a href="#">Home</a></li>
