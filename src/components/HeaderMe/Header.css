@@ -195,8 +195,8 @@ header {
 @media screen and (max-width : 600px) {
 
     header {
-        
-        height: 140vh;
+        /* border: 1px solid; */
+        height: 132vh;
     }
 
     .header__socials{
@@ -205,12 +205,12 @@ header {
         bottom: .1rem;
         display: flex;
         flex-direction: row;
-        left: 7rem;
+        left: 8vw;
     }
     .scroll__down {
-        bottom: 1rem;
+        bottom: .5rem;
         transform: rotate(360deg);
-        right: 7rem;
+        right: 8vw;
         font-size: 1.4rem;
     }
 }
