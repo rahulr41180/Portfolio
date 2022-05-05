@@ -1,5 +1,5 @@
 
-import Resume from "../../Assets/Resume.pdf"
+import Resume from "../../Assets/RahulRathorResume.pdf"
 
 export const CTA = () =>{
 
